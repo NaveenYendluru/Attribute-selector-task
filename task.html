@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        background-color: aqua;
+    }
+    .m1{
+        border: 2px  solid black;
+        height: 400px; width: 600px;
+        background-color: gray;
+    }
+    .n1{
+        position: relative;
+        left: 60px;
+    }
+    .nav{
+        position: relative;
+        top: 40px; right: 483px; 
+    }
+    .nav1{
+        position: relative;
+        top: 19px; left: 88px;
+    }
+    .n2{
+        position: relative;
+        left: 225px; top: 22px;
+    }
+    .n3{
+        position: relative;
+        left: 230px;top: 20px;
+    }
+    .n4{
+        position: relative;
+        top: 60px; right: 315px;
+    }
+    .n5{
+        position: relative;
+        right: 310px; top: 60px;
+        border: 2px solid blue;
+    }
+    .n6{
+        position: relative;
+        top: 90px;
+    }
+.n7{
+    position: relative;
+    top: 90px;
+}
+.n8{
+    position: relative;
+    top: 140px; right: 280px;
+}
+.n9{
+    position: relative;
+    top: 140px; right: 280px;
+}
+.n10{
+    position: relative;
+    top: 200px; left: 290px;
+    font-size: 20px; background-color: aqua;
+    
+}
+input[target=_blank]{
+    border: 2px solid red;
+}
+input[title ~= "DOB"]{
+    border: 2px solid blueviolet;
+    background-color:bisque ;
+} 
+input[type="text"]{
+    background-color: bisque;
+}
+input[type="password"]{
+    background-color: bisque;
+    border: 2px solid saddlebrown;
+}
+input[type="email"]{
+    background-color: bisque;
+    border: 2px solid violet;
+}
+
+</style>
+<body>
+    <fieldset class="m1"><legend><h1>Registration Form</h1></legend>
+
+        <form>
+<label for="firstname">First name :</label>
+<input target="_blank" type="text" name="first name" id="firstname">
+<label class="n1" for="lastanem">Last name :</label>
+<input target="_blank" class="n1" type="text" name="lastanem" id="lastanem">
+<label class="nav" for="Dob">DOB :</label>
+<input title="DOB" class="nav1" type="date" name="Dob" id="Dob">
+<label  class="n2" for="email">Email :</label>
+<input class="n3" type="email" name="email" id="email" required>
+<label class="n4" for="pan">PAN :</label>
+<input class="n5" type="text" name="pan" id="pan" required>
+<label class="n6" for="pswd">Set Password :</label>
+<input class="n7" type="password" name="pswd" id="pswd">
+<label class="n8" for="pswd">Confirm Password :</label>
+<input class="n9" type="password" name="pswd" id="pswd">
+<input class="n10" type="submit" name="" id="" value="Register">
+        </form>
+    
+    </fieldset>
+</body>
+</html>
